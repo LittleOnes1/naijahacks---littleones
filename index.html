@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,10 +10,27 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Home - Learn With Andy</title>
 </head>
+
 <body>
     <header class="col-12">
         <nav class="col-12">
             <div class="logo p-6"><a href="index.html" class="logo_a">LearnWithAndy.xyz</a></div>
+            <img src="Icons/Burger.png" alt="Burger Icon" class="burger p-6" id="burger">
+            <div class="phone_nav_div" id="phone_nav">
+                <ul class="phone_nav_ul p-6">
+                    <li class="phone_nav_li"><a href="#" class="phone_nav_a phone_nav_faqs">FAQs</a></li>
+                    <li class="phone_nav_li"><a href="login/index.html" class="phone_nav_a phone_nav_login">Login</a></li>
+                    <li class="phone_nav_li"><a href="course/index.html" class="phone_nav_a phone_nav_courses">Courses</a>
+                    </li>
+                    <li class="phone_nav_li"><a href="#" class="phone_nav_a phone_nav_about">About Me</a></li>
+                    <!-- <li class="phone_nav_li"><a href="#" class="phone_nav_a phone_nav_contact">Contact</a></li> -->
+                    <li class="phone_nav_li"><a href="#pricing_section" class="phone_nav_a phone_nav_pricing">Pricing</a>
+                    </li>
+                </ul>
+                <div class="nav_under_f p-4">
+                    <p class="nav_copy">&copy Learn With Andy.xyz 2019</p>
+                </div>
+            </div>
             <ul class="nav_ul p-6">
                 <li class="nav_li"><a href="#" class="nav_a nav_faqs">FAQs</a></li>
                 <li class="nav_li"><a href="login/index.html" class="nav_a nav_login">Login</a></li>
@@ -49,11 +67,11 @@
             </div>
             <div class="qt_JS qt" id="qt_JS">
                 <div class="qt_JS_logo">HOW <br> TO <br> DANCE</div>
-                <button class="qt_button _b_JS">Click to learn</button>        
+                <button class="qt_button _b_JS">Click to learn</button>
             </div>
             <div class="qt_scratch qt" id="qt_scratch">
                 <div class="qt_scratch_logo">HOW <br> TO <br> SPEAK</div>
-                <button class="qt_button _b_scratch">Click to learn</button>           
+                <button class="qt_button _b_scratch">Click to learn</button>
             </div>
         </div>
         <h1 class="course_s_h1 pl-6 pr-6 pb-8">Just type what you want <br> and I'll show you how</h1>
@@ -72,33 +90,33 @@
                     <ul class="pt_ul">
                         <li class="pt_li">Three Months Trial</li>
                         <li class="pt_li">Limited Courses</li>
-                        <li class="pt_li">Limited Lessons</li>
+                        <li class="pt_li">No Webinar Course</li>
                         <li class="pt_li">No Support System</li>
                         <li class="pt_li">No Daily Challenge</li>
                         <li class="pt_li">Free 5 Ebooks</li>
                         <li class="pt_li">Access to Andy-Chat</li>
                     </ul>
                     <center class="pt_button_center">
-                            <button class="pt_button">Choose Plan</button>
+                        <button class="pt_button">Choose Plan</button>
                     </center>
                 </div>
             </div>
             <div class="pricing_premium pricing_table">
                 <!-- <div class="inner_p_contents ptb-6"> -->
-                    <h1 class="pt_h1 pt-6">Premium</h1>
-                    <div class="price price_p"><sup>$</sup>20 per year</div>
-                    <ul class="pt_ul">
-                        <li class="pt_li">Unlimited Trial</li>
-                        <li class="pt_li">Unlimited Courses</li>
-                        <li class="pt_li">Unlimited Lessons</li>
-                        <li class="pt_li">Andy Support System</li>
-                        <li class="pt_li">Daily Challenges</li>
-                        <li class="pt_li">Unlimited Ebooks</li>
-                        <li class="pt_li">Access to Andy-Chat</li>
-                    </ul>
-                    <center class="pt_button_center">
-                            <button class="pt_button pt_p_button">Choose Plan</button>
-                    </center>
+                <h1 class="pt_h1 pt-6">Premium</h1>
+                <div class="price price_p"><sup>$</sup>20 per year</div>
+                <ul class="pt_ul">
+                    <li class="pt_li">Unlimited Trial</li>
+                    <li class="pt_li">Unlimited Courses</li>
+                    <li class="pt_li">Limited Webinar Courses</li>
+                    <li class="pt_li">Andy Support System</li>
+                    <li class="pt_li">Daily Challenges</li>
+                    <li class="pt_li">Unlimited Ebooks</li>
+                    <li class="pt_li">Access to Andy-Chat</li>
+                </ul>
+                <center class="pt_button_center">
+                    <button class="pt_button pt_p_button">Choose Plan</button>
+                </center>
             </div>
             <div class="pricing_classic pricing_table">
                 <div class="inner_p_contents ptb-6">
@@ -107,18 +125,18 @@
                     <ul class="pt_ul">
                         <li class="pt_li">Unlimited Trial</li>
                         <li class="pt_li">Limited Courses</li>
-                        <li class="pt_li">Unlimited Lessons</li>
+                        <li class="pt_li">Unlimited Webinar Courses</li>
                         <li class="pt_li">Andy Support System</li>
                         <li class="pt_li">Daily Challenges</li>
                         <li class="pt_li">Free 20 Ebooks</li>
                         <li class="pt_li">Access to Andy-Chat</li>
                     </ul>
                     <center class="pt_button_center">
-                            <button class="pt_button">Choose Plan</button>
+                        <button class="pt_button">Choose Plan</button>
                     </center>
+                </div>
             </div>
-        </div>
-        
+
     </section>
 
 
@@ -176,5 +194,8 @@
             <p class="copy">&copy Learn With Andy.xyz 2019. Designed by Little One</p>
         </div>
     </footer>
+
+    <script src="js/responsive.js"></script>
 </body>
+
 </html>
