@@ -1,0 +1,225 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    font-family: Raleway;
+    background: url(../../images/background_login.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+button {
+    cursor: pointer;
+}
+
+header {
+    background: linear-gradient(to right, rgb(55, 22, 133), rgb(114, 62, 197));
+    overflow: hidden; 
+    box-shadow: 0 0 15px 2px rgb(26, 26, 26);
+    z-index: 20;
+}
+
+/* Style the Logo */
+.logo { 
+    float: left;
+    padding-left: 48px;
+}
+
+.logo_a {
+    color: whitesmoke;
+    letter-spacing: 2px;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+/* Style the navigation links */
+.nav_ul {
+    float: right;
+}
+
+.nav_li {
+    display: inline-block;
+    padding-right: 48px;
+}
+
+.nav_a {
+    color: whitesmoke;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.nav_pricing {
+    padding: 10px 20px;
+    background: whitesmoke;
+    color: rgb(164, 18, 177);
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 50px;
+}
+
+/* For media queries */
+.burger {
+    display: none;
+}
+
+.phone_nav_div {
+    display: none;
+}
+
+.phone_nav_bg {
+    display: none;
+}
+
+@media screen and (max-width:680px) {
+    /* Remove Existing Nav */
+    .nav_ul {
+        display: none;
+    }
+
+    .logo {
+        padding-left: 24px;
+    }
+
+    /* Replace with New Nav and Burger */
+    .burger {
+        display: block;
+        width: 10%;
+        filter: invert(1);
+        /* filter: contrast(100); */
+        float: right;
+        cursor: pointer;
+        outline: none;
+    }
+    
+    .phone_nav_div {
+        position: fixed;
+        left: -20rem;
+        z-index: 1000;
+        display: block;
+        clear: both;
+        width: 80%;
+        height: 100vh;
+        background: #222222;
+        padding-top: 100px;
+        box-shadow: 0 0 15px 5px #222222;
+        transition: left 1s ease;
+    }
+
+    .phone_nav_div.show {
+        left: 0;
+    }
+
+    .phone_nav_ul {
+        padding-bottom: 105px;
+    }
+
+    .phone_nav_li {
+        padding: 10px 0;
+        text-align: center;
+        list-style: none;
+    }
+
+    .phone_nav_a {
+        text-decoration: none;
+        color: whitesmoke;
+    }
+
+    .nav_under_f {
+        background: whitesmoke;
+        bottom: 0;
+        position: relative;
+        width: auto;
+    }
+    
+    .nav_copy {
+        text-align: center;
+        margin-top: 12px;
+        color: rgb(173, 173, 173);
+    } 
+}
+
+
+/* Main Section */
+
+.text {
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 100px;
+    font-weight: bolder;
+}
+
+.section_time {
+    text-align: center;
+    /* margin-top: 200px; */
+    padding: 70px 120px 120px 120px;
+}
+
+.day, .hour, .minute, .secs {
+    font-family: Century Gothic;
+    background: linear-gradient(to right, rgb(55, 22, 133), rgb(114, 62, 197));
+    /* box-shadow: 0 10px 20px 7px #222222; */
+    /* margin: 0 30px; */
+    border-radius: 50%;
+    color: whitesmoke;
+    padding: 92px 72px;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+
+
+/* Footer */
+.footer_div {
+    background: #111;
+    margin-top: 48px;
+}
+
+.footer_inner {
+    margin: 10px;
+    /* background: whitesmoke; */
+    text-align: center;
+}
+
+.footer_inner img {
+    position: relative;
+    width: 30%;
+    left: 35%;
+    display: block;
+}
+
+.f_caption {
+    color: #eee;
+    font-size: 20px;
+    font-weight: bolder;
+    padding-top: 5px;
+    display: block;
+}
+
+.f_details {
+    color: #eee;
+    text-decoration: none;
+}
+
+.under_f {
+    background: whitesmoke;
+}
+
+.under_f center img {
+    width: auto;
+}
+
+.copy {
+    text-align: center;
+    margin-top: 12px;
+    color: rgb(173, 173, 173);
+}

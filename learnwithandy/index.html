@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/col-style.css">
+    <link rel="stylesheet" href="css/padding-style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/modal.css">
+    <title>Home - Learn With Andy</title>
+</head>
+
+<body>
+    <!-- The Modal -->
+    <div class="big_modal">
+        <center class="modal_body" id="modal">
+            <img src="icons/Cancel.png" alt="" class="cancelIcon" id="cancel">
+            <input type="text" name="andy_search" id="a_search" class="a_search" value="How to" readonly>
+            <input type="text" name="andy_search" id="myInput"  placeholder="Code, Solve, Write, Learn" class="andy_search" list="reference">
+            <datalist id="reference">
+                <option value="Solve Maths">Solve Maths</option>
+                <option value="Solve Physics">Solve Physics</option>
+                <option value="Solve Accounting">Solve Accounting</option>
+                <option value="Solve Economics">Solve Economics</option>
+                <option value="Write English">Write English</option>
+                <option value="Code">Code</option>
+                <option value="Learn">Learn</option>
+            </datalist>
+            <input type="button" value="Search" class="andy_button" id="button">
+            <ul id="myUL" class="myUl">
+                <li class="li"><a href="course/countdown/index.html" class="a">Code - HTML</a></li>
+                
+                <li class="li"><a href="course/countdown/index.html" class="a">Code - CSS</a></li>
+                <li class="li"><a href="course/countdown/index.html" class="a">Code - JavaScript</a></li>
+                
+                <li class="li"><a href="course/countdown/index.html" class="a">Code - Php</a></li>
+                <li class="li"><a href="course/countdown/index.html" class="a">Code - Python</a></li>
+                <li class="li"><a href="course/countdown/index.html" class="a">Code - C++</a></li>
+
+                <li class="li"><a href="course/countdown/index.html" class="a">Code - Java</a></li>
+                <li class="li"><a href="course/countdown/index.html" class="a">Solve Maths</a></li>
+                <li class="li"><a href="course/countdown/index.html" class="a">Solve Mathematics</a></li>
+                <li class="li"><a href="course/countdown/index.html" class="a">Solve Accounting</a></li>
+                
+                <li class="li"><a href="course/countdown/index.html" class="a">Solve Physics</a></li>
+
+                <li class="li"><a href="course/countdown/index.html" class="a">Write English</a></li>
+                <li class="li"><a href="course/countdown/index.html" class="a">Learn Computer</a></li>
+                <li class="li"><a href="course/countdown/index.html" class="a">Learn Geography</a></li>
+
+                <li class="li"><a href="course/countdown/index.html" class="a">Solve Futher Maths</a></li>
+                <li class="li"><a href="course/countdown/index.html" class="a">Solve Futher Mathematics</a></li>
+
+                <li class="li"><a href="course/countdown/index.html" class="a">Learn Biology</a></li>
+                <li class="li"><a href="course/countdown/index.html" class="a">Solve Chemistry</a></li>
+                <li class="li"><a href="course/countdown/index.html" class="a">Write Literature</a></li>
+                <li class="li"><a href="course/countdown/index.html" class="a">Learn Government</a></li>
+                <li class="li"><a href="course/countdown/index.html" class="a">Solve Economics</a></li>
+
+                <li class="li"><a href="course/countdown/index.html" class="a">DIY</a></li>
+            </ul>
+        </center>
+    </div>
+        
+
+
+
+
+    <header class="col-12">
+        <nav class="col-12">
+            <div class="logo p-6"><a href="index.html" class="logo_a">LearnWithAndy.xyz</a></div>
+            <img src="Icons/Burger.png" alt="Burger Icon" class="burger p-6" id="burger">
+            <div class="phone_nav_div" id="phone_nav">
+                <ul class="phone_nav_ul p-6">
+                    <li class="phone_nav_li"><a href="FAQs/index.html" class="phone_nav_a phone_nav_faqs">FAQs</a></li>
+                    <li class="phone_nav_li"><a href="login/index.html" class="phone_nav_a phone_nav_login">Login</a></li>
+                    <li class="phone_nav_li"><a href="course/index.html" class="phone_nav_a phone_nav_courses">Courses</a>
+                    </li>
+                    <li class="phone_nav_li"><a href="About/index.html" class="phone_nav_a phone_nav_about">About Me</a></li>
+                    <!-- <li class="phone_nav_li"><a href="#" class="phone_nav_a phone_nav_contact">Contact</a></li> -->
+                    <li class="phone_nav_li"><a href="#pricing_section" class="phone_nav_a phone_nav_pricing">Pricing</a>
+                    </li>
+                </ul>
+                <div class="nav_under_f p-4">
+                    <p class="nav_copy">&copy Learn With Andy.xyz 2019</p>
+                </div>
+            </div>
+            <ul class="nav_ul p-6">
+                <li class="nav_li"><a href="FAQs/index.html" class="nav_a nav_faqs">FAQs</a></li>
+                <li class="nav_li"><a href="login/index.html" class="nav_a nav_login">Login</a></li>
+                <li class="nav_li"><a href="course/index.html" class="nav_a nav_courses">Courses</a></li>
+                <li class="nav_li"><a href="About/index.html" class="nav_a nav_about">About Me</a></li>
+                <!-- <li class="nav_li"><a href="#" class="nav_a nav_contact">Contact</a></li> -->
+                <li class="nav_li"><a href="#pricing_section" class="nav_a nav_pricing">Pricing</a></li>
+            </ul>
+        </nav>
+
+        <div class="banner grid-2 col-12">
+            <div class="banner_text p-6">
+                <h1 class="banner_h1">Hello!</h1>
+                <p class="banner_p">My name is Andy, <br> I am your guide.</p>
+                <button class="banner_button" id="banner_btn">What is your name?</button>
+            </div>
+            <div class="banner_avatar p-6">
+                <img src="Avatar/Avatar boy 1.png" alt="Andy Avatar">
+            </div>
+        </div>
+    </header>
+
+    <section class="section_course col-12">
+        <h1 class="course_h1 pl-6 pr-6 pt-6">I can teach you a lot of things</h1>
+        <!-- Quick Tutorials -->
+        <div class="quick_tutorials grid-4 pl-8 pr-8 pt-6 pb-8" id="testSha">
+            <div class="qt_HTML qt" id="qt_HTML">
+                <div class="qt_HTML_logo">HOW <br> TO SOLVE<br> MATHS</div>
+                <button class="qt_button _b_HTML">Click to learn</button>
+            </div>
+            <div class="qt_CSS qt" id="qt_CSS">
+                <div class="qt_CSS_logo">HOW <br> TO <br> CODE</div>
+                <button class="qt_button _b_CSS">Click to learn</button>
+            </div>
+            <div class="qt_JS qt" id="qt_JS">
+                <div class="qt_JS_logo">HOW <br> TO WRITE<br> ESSAYS</div>
+                <button class="qt_button _b_JS">Click to learn</button>
+            </div>
+            <div class="qt_scratch qt" id="qt_scratch">
+                <div class="qt_scratch_logo">HOW <br> TO <br> SPEAK</div>
+                <button class="qt_button _b_scratch">Click to learn</button>
+            </div>
+        </div>
+        <h1 class="course_s_h1 pl-6 pr-6 pb-8">Just type what you want <br> and I'll show you how</h1>
+        <center class="search_center pb-6">
+            <input type="submit" name="search" id="search" value="Ask me anything" class="course_search" placeholder="e.g: How to Run🏃">
+        </center>
+    </section>
+
+    <section class="section_pricing col-12" id="pricing_section">
+        <h1 class="pricing_h1 p-6">But first, Choose a suitable plan</h1>
+        <div class="pricing_table_container grid-3">
+            <div class="pricing_free pricing_table">
+                <div class="inner_p_contents ptb-6">
+                    <h1 class="pt_h1">Free</h1>
+                    <div class="price"><sup>$</sup>0 per year</div>
+                    <ul class="pt_ul">
+                        <li class="pt_li">Three Months Trial</li>
+                        <li class="pt_li">Limited Courses</li>
+                        <li class="pt_li">No Webinar Course</li>
+                        <li class="pt_li">No Support System</li>
+                        <li class="pt_li">No Daily Challenge</li>
+                        <li class="pt_li">Free 5 Ebooks</li>
+                        <li class="pt_li">Access to Andy-Chat</li>
+                    </ul>
+                    <center class="pt_button_center">
+                        <button class="pt_button">Choose Plan</button>
+                    </center>
+                </div>
+            </div>
+            <div class="pricing_premium pricing_table">
+                <!-- <div class="inner_p_contents ptb-6"> -->
+                <h1 class="pt_h1 pt-6">Premium</h1>
+                <div class="price price_p"><sup>$</sup>20 per year</div>
+                <ul class="pt_ul">
+                    <li class="pt_li">Unlimited Trial</li>
+                    <li class="pt_li">Unlimited Courses</li>
+                    <li class="pt_li">Limited Webinar Courses</li>
+                    <li class="pt_li">Andy Support System</li>
+                    <li class="pt_li">Daily Challenges</li>
+                    <li class="pt_li">Unlimited Ebooks</li>
+                    <li class="pt_li">Access to Andy-Chat</li>
+                </ul>
+                <center class="pt_button_center">
+                    <button class="pt_button pt_p_button">Choose Plan</button>
+                </center>
+            </div>
+            <div class="pricing_classic pricing_table">
+                <div class="inner_p_contents ptb-6">
+                    <h1 class="pt_h1">Classic</h1>
+                    <div class="price"><sup>$</sup>10 per year</div>
+                    <ul class="pt_ul">
+                        <li class="pt_li">Unlimited Trial</li>
+                        <li class="pt_li">Limited Courses</li>
+                        <li class="pt_li">Unlimited Webinar Courses</li>
+                        <li class="pt_li">Andy Support System</li>
+                        <li class="pt_li">Daily Challenges</li>
+                        <li class="pt_li">Free 20 Ebooks</li>
+                        <li class="pt_li">Access to Andy-Chat</li>
+                    </ul>
+                    <center class="pt_button_center">
+                        <button class="pt_button">Choose Plan</button>
+                    </center>
+                </div>
+            </div>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="grid-4 footer_div p-4">
+            <div class="footer_inner">
+                <img src="icons/phone-47-64.png" alt="Phone Icon">
+                <span class="f_caption">
+                    TEL
+                </span>
+                <a href="#" class="f_details">
+                    08072364088
+                </a>
+            </div>
+
+            <div class="footer_inner">
+                <img src="icons/email-11-64.png" alt="Email Icon">
+                <span class="f_caption">
+                    EMAIL
+                </span>
+                <a href="#" class="f_details">
+                    learn@learnwithandy.xyz
+                </a>
+            </div>
+
+            <div class="footer_inner">
+                <img src="icons/github-6-64.png" alt="Github Icon">
+                <span class="f_caption">
+                    GITHUB
+                </span>
+                <a href="#" class="f_details">
+                    @littleones
+                </a>
+            </div>
+
+            <div class="footer_inner">
+                <img src="Icons/chrome-3-64.png" alt="Website Icon">
+                <span class="f_caption">
+                    WEBSITE
+                </span>
+                <a href="#" class="f_details">
+                    www.learnwithandy.xyz
+                </a>
+            </div>
+        </div>
+
+        <div class="under_f p-4">
+            <center>
+                <img src="icons/twitter-4-32.png" alt="Twitter Icon">
+                <img src="icons/facebook-7-32.png" alt="Facebook Icon">
+                <img src="icons/instagram-4-32.png" alt="Instagram Icon">
+                <img src="icons/pinterest-4-32.png" alt="Pinterst Icon">
+            </center>
+            <p class="copy">&copy Learn With Andy.xyz 2019. Designed by Little One</p>
+        </div>
+    </footer>
+
+
+
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+        var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+        (function(){
+        var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+        s1.async=true;
+        s1.src='https://embed.tawk.to/5df54b20d96992700fcc5235/default';
+        s1.charset='UTF-8';
+        s1.setAttribute('crossorigin','*');
+        s0.parentNode.insertBefore(s1,s0);
+        })();
+    </script>
+    <!--End of Tawk.to Script-->
+
+    
+    <script src="js/script.js"></script>
+    <script src="js/modal.js"></script>
+    <script src="js/responsive.js"></script>
+</body>
+
+</html>
